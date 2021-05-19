@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?orkqwr');
+  src:  url('fonts/icomoon.eot?orkqwr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?orkqwr') format('truetype'),
+    url('fonts/icomoon.woff?orkqwr') format('woff'),
+    url('fonts/icomoon.svg?orkqwr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tick:before {
+  content: "\e913";
+}
+.icon-magnifying-glass1:before {
+  content: "\e914";
+}
+.icon-right-arrow1:before {
+  content: "\e915";
+}
+.icon-wealth:before {
+  content: "\e916";
+}
+.icon-data-analytics:before {
+  content: "\e917";
+}
+.icon-report:before {
+  content: "\e918";
+}
+.icon-phone-ringing:before {
+  content: "\e919";
+}
+.icon-mobile-analytics:before {
+  content: "\e91a";
+}
+.icon-research:before {
+  content: "\e91b";
+}
+.icon-creative:before {
+  content: "\e91c";
+}
+.icon-video:before {
+  content: "\e91d";
+}
+.icon-help:before {
+  content: "\e91e";
+}
+.icon-customer-review:before {
+  content: "\e91f";
+}
+.icon-consultant:before {
+  content: "\e920";
+}
+.icon-checkmark:before {
+  content: "\e921";
+}
+.icon-bank:before {
+  content: "\e922";
+}
+.icon-protection:before {
+  content: "\e923";
+}
+.icon-travel:before {
+  content: "\e924";
+}
+.icon-software:before {
+  content: "\e925";
+}
+.icon-consulting:before {
+  content: "\e926";
+}
+.icon-group:before {
+  content: "\e927";
+}
+.icon-consulting-1:before {
+  content: "\e928";
+}
+.icon-creative-1:before {
+  content: "\e929";
+}
+.icon-analysis:before {
+  content: "\e92a";
+}
+.icon-business:before {
+  content: "\e92b";
+}
+.icon-global:before {
+  content: "\e92c";
+}
+.icon-team1:before {
+  content: "\e92d";
+}
+.icon-magnifying-glass:before {
+  content: "\e900";
+}
+.icon-shopping-cart:before {
+  content: "\e901";
+}
+.icon-right-arrow:before {
+  content: "\e902";
+}
+.icon-furnitures:before {
+  content: "\e903";
+}
+.icon-buildings:before {
+  content: "\e904";
+}
+.icon-house-design:before {
+  content: "\e905";
+}
+.icon-architect:before {
+  content: "\e906";
+}
+.icon-architect-1:before {
+  content: "\e907";
+}
+.icon-architect-2:before {
+  content: "\e908";
+}
+.icon-measure:before {
+  content: "\e909";
+}
+.icon-blueprint:before {
+  content: "\e90a";
+}
+.icon-kitchen:before {
+  content: "\e90b";
+}
+.icon-architect-3:before {
+  content: "\e90c";
+}
+.icon-architect-4:before {
+  content: "\e90d";
+}
+.icon-architect-5:before {
+  content: "\e90e";
+}
+.icon-satisfaction:before {
+  content: "\e90f";
+}
+.icon-team:before {
+  content: "\e910";
+}
+.icon-checklist:before {
+  content: "\e911";
+}
+.icon-outsourcing:before {
+  content: "\e912";
+}
