@@ -402,8 +402,8 @@ ul {
     position: relative;
     display: block;
     float: left;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
@@ -1921,7 +1921,8 @@ ul {
     position: relative;
     display: block;
     background-color: #06050c;
-    padding: 54px 60px 75px;
+    /* padding: 54px 60px 75px;*/ /*origin*/
+    padding: 54px 46px 75px;
     margin-bottom: 30px;
     transition: background 500ms ease;
 }
@@ -1988,7 +1989,7 @@ ul {
 .real-world__icon-box {
     position: absolute;
     bottom: 52px;
-    right: 60px;
+    right: 46px;
 }
 
 .real-world__icon-box span {

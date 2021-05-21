@@ -8,10 +8,7 @@ dotenv.config(); //LOAD CONFIG
 
 const app = express();
 
-app.use(
-    '/assets', 
-    express.static(path.join(__dirname, 'files/assets'))
-    );
+app.use(express.static(__dirname + '/files'));
 app.use(cors());
 
 app.set('views','./files')
@@ -21,12 +18,17 @@ app.engine('html', require('ejs').renderFile);
 // routing
 app.get('/', function (req, res) {
     res.render("index.html");
-    res.end();
+});
+app.get('/origin', function (req, res) {
+    res.render("index_origin.html");
+});
+app.get('/cases', function (req, res) {
+    res.render("cases.html");
 });
 app.get('/e', function (req, res) {
-    errorPageReturn(res)();
-    res.end();
+    errorPageReturn(res);
 });
+
 
 
 // open port
