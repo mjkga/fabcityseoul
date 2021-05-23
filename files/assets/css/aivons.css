@@ -2015,16 +2015,17 @@ ul {
     position: relative;
     display: block;
     background-color: var(--thm-black);
-    padding: 128px 0 119px;
+    padding: 128px 119px 119px;
+
 }
 
 .brand-one__title {
     color: var(--thm-base);
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 36px;
     font-weight: 600;
     position: absolute;
-    top: 0;
+    top: 20px;
     right: 0;
     left: 0;
     width: 1170px;
