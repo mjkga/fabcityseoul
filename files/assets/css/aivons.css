@@ -1457,6 +1457,10 @@ ul {
     z-index: 30;
 }
 
+.image-dim {
+    mix-blend-mode: luminosity;
+}
+
 .main-slider .image-layer {
     position: absolute;
     top: 0;
@@ -3249,6 +3253,11 @@ ul {
 .google-map {
     position: relative;
     display: block;
+    /* background-color: var(--thm-black); */
+}
+
+.google-map-gap {
+    padding-top: 40px;
 }
 
 .google-map__one {
@@ -5894,7 +5903,7 @@ ul {
 
 .services-details__img>img {
     width: 100%;
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
 }
 
 .services-details__top-content {
@@ -6042,6 +6051,20 @@ ul {
     line-height: 32px;
 }
 
+.education-details__bottom-box-title {
+    font-size: 18px;
+    letter-spacing: var(--thm-letter-space-small);
+    font-weight: 800;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.education-details__bottom-box-text {
+    font-size: 16px;
+    margin: 0;
+    line-height: 32px;
+}
 
 
 .services-details__sidebar {
@@ -7215,7 +7238,13 @@ ul {
 
 
 
-
+.message-box__inner {
+    position: relative;
+    display: block;
+    border-top: 1px solid #e6e9ef;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
 
 .message-box__left .section-title__title {
     font-size: 48px;
