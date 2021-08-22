@@ -2592,6 +2592,15 @@ ul {
     letter-spacing: var(--thm-letter-space-small);
 }
 
+.our-mission__title2 {
+    font-size: 30px;
+    color: var(--thm-base);
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    letter-spacing: var(--thm-letter-space-small);
+}
 
 
 /*--------------------------------------------------------------
@@ -4382,6 +4391,7 @@ ul {
     position: relative;
     display: block;
     margin-bottom: 30px;
+    padding: 20px 20px;
 }
 
 .team-one__img {
@@ -5784,7 +5794,7 @@ ul {
 }
 
 .page-header__bg {
-    background-image: url(../images/backgrounds/page-header-bg.jpg);
+    background-image: url(../images/backgrounds/seoulview.jpg);
     background-size: cover;
     background-color: var(--thm-black);
     background-blend-mode: luminosity;
@@ -5888,6 +5898,12 @@ ul {
     position: relative;
     display: block;
     padding: 120px 0 109px;
+}
+
+.services-details2 {
+    position: relative;
+    display: block;
+    padding: 1200px 0 -20900px;
 }
 
 .services-details__left {
