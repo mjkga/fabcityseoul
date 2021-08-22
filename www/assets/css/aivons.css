@@ -6958,18 +6958,18 @@ ul {
 }
 
 .news-details__title {
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 44px;
+    font-size: 36px;
+    font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    margin-top: 7px;
+    line-height: 46px;
+    margin-bottom: 18px;
+    letter-spacing: var(--thm-letter-space-small);
 }
 
 .news-details__text-one {
     font-size: 16px;
     font-weight: 500;
-    margin: 0;
+    margin-left: 20px;
     padding-bottom: 33px;
     line-height: 32px;
 }
