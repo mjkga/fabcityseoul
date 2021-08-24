@@ -4403,7 +4403,7 @@ ul {
 
 .team-one__img:before {
     position: absolute;
-    top: 0;
+    top: 2;
     left: 0;
     right: 0;
     bottom: 0;
@@ -4419,7 +4419,7 @@ ul {
 }
 
 .team-one__img {
-    background-color: var(--thm-black);
+/*    background-color: var(--thm-black);*/
 }
 
 .team-one__img>img {
@@ -4444,6 +4444,7 @@ ul {
 
 .team-one__name {
     font-size: 24px;
+    left: 20px;
     color: var(--thm-base);
     line-height: 34px;
     text-transform: uppercase;
@@ -4451,6 +4452,17 @@ ul {
     margin-bottom: 6px;
     letter-spacing: var(--thm-letter-space-small);
 }
+
+.team-two__name {
+    font-size: 20px;
+    color: var(--thm-base);
+    line-height: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 6px;
+    letter-spacing: var(--thm-letter-space-small);
+}
+
 
 .team-one__title {
     font-size: 12px;
