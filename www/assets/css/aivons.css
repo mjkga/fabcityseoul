@@ -264,8 +264,8 @@ ul {
     animation-fill-mode: both;
     -webkit-animation-name: flipInY;
     animation-name: flipInY;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
