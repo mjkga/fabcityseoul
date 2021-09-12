@@ -3600,6 +3600,12 @@ ul {
     margin-bottom: 35px;
 }
 
+.footer-widget__about-logo2 {
+    position: absolute;
+/*    display: block;*/
+    margin-bottom: 35px;
+}
+
 
 
 
