@@ -241,7 +241,8 @@
             </div>
         </section>
         <!--Our Mission End-->
-        <!--CTA One Start-->
+
+        <!-- mail subscription form start-->
         <section class="cta-one">
             <div class="cta-one-bg" style="background-image: url(assets/images/backgrounds/cta-one-bg.png)"></div>
             <div class="container">
@@ -252,11 +253,54 @@
                                 <h2 class="cta-one__title">지역의 생산성을 높이고 <br> 전 세계 도시와 연결된 팹시티를 만듭니다.</h2>
                             </div>
                             <div class="cta-one__right">
-                                <!-- Email subscription contents box -->
-                                <!-- <h6>월간 Fab 구독하기</h6>
-                                <h6>구독을 원하시면 아래 이메일을 입력해주세요</h6> -->
-                                <a href="www/contact.html" class="thm-btn cta-one__btn">let’s get started</a>
+                            <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/resource.stibee.com/subscribe/stb_subscribe_form_style.css"> 
+                                    <div id="stb_subscribe"> 
+                                      
+                                        <form action="https://stibee.com/api/v1.0/lists/ttzQ_eZmiI6z_1lKCR7eaNwi7WPBjw==/public/subscribers" method="POST" target="_blank" accept-charset="utf-8" class="stb_form" name="stb_subscribe_form" id="stb_subscribe_form" novalidate=""> 
+                                            <h1 class="stb_form_title">월간Fab 구독하기</h1> 
+                                                <!-- <p class="stb_form_description">지속 가능한 도시를 만들기 위한 새로운 비전을 제시하고, 자원 순환, 개인 제조 활성화, 시민참여, 글로벌 연대 등의 다양한 접근법과 대안을 실험하는 사람들의 소식을 메일로 받아보세요. 뉴스레터 형식으로 발행될 월간Fab 창간호는 2021년 11월 20일에 여러분의 메일로 찾아가겠습니다! <br><br>문의: admin@fabcity.kr</p>  -->
+                                                    <fieldset class="stb_form_set">
+                                                         <!-- <label for="stb_email" class="stb_form_set_label"> 이메일 주소 </label>  -->
+                                                            <input type="email" class="stb_form_set_input" id="stb_email" name="email" required="required" placeholder="이메일 주소"> 
+                                                            <div class="stb_form_msg_error" id="stb_email_error"></div> 
+                                                    </fieldset>
+                                                    
+                                                    <fieldset class ="stb_form_set"> 
+                                                        <!-- <label for="stb_name" class="stb_form_set_label" > 이름 </label>  -->
+                                                            <input type="text" class="stb_form_set_input" id="stb_name" name="name" placeholder="이름"> 
+                                                                <div class="stb_form_msg_error" id="stb_name_error"></div> 
+                                                    </fieldset> 
+                                                    
+                                                    <div class="stb_form_policy"> 
+                                                        <label> <input type="checkbox" id="stb_policy" value="stb_policy_true"> 
+                                                            <button id="stb_form_modal_open" data-modal="stb_form_policy_modal" class="stb_form_modal_open_btn" type="button">개인정보 수집 및 이용</button>에 동의합니다. </label> 
+                                                            <div class="stb_form_msg_error" id="stb_policy_error"></div> 
+                                                            <div class="stb_form_modal stb_form_policy_text blind" id="stb_form_policy_modal"> 
+                                                                
+                                                            <div class="stb_form_modal_body"> 
+                                                                <h1 class="stb_form_modal_title">개인정보 수집 및 이용</h1> 
+                                                                <p class="stb_form_modal_text">뉴스레터 발송을 위한 최소한의 개인정보를 수집하고 이용합니다. 수집된 정보는 발송 외 다른 목적으로 이용되지 않으며, 서비스가 종료되거나 구독을 해지할 경우 즉시 파기됩니다.</p> 
+                                                                    <div class="stb_form_modal_btn"> <button id="stb_form_modal_close" class="stb_form_modal_close_btn" data-modal="stb_form_policy_modal" type="button">닫기</button> 
+                                                                    </div> 
+                                                                </div> 
+                                                            <div class="stb_form_modal_bg" id="stb_form_modal_bg"></div> 
+                                                        </div> 
+                                                    </div> 
+                                                <div class="stb_form_result" id="stb_form_result"> </div>
+                                                     <fieldset class="stb_form_set_submit">
+                                                          <button type="submit" class="stb_form_submit_button" id="stb_form_submit_button" style="background-color: rgb(60, 114, 252); color: rgb(255, 255, 255);">구독하기</button> 
+                                                    </fieldset> 
+                                                </form> 
+                                            </div> 
+                                        <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+                                    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/resource.stibee.com/subscribe/stb_subscribe_form.js"></script>    
+                                </div>
+                                    <!-- <div class="cta-one__left">
+                                <h2 class="cta-one__title">지역의 생산성을 높이고 <br> 전 세계 도시와 연결된 팹시티를 만듭니다.</h2>
                             </div>
+                            <div class="cta-one__right">
+                                <a href="www/contact.html" class="thm-btn cta-one__btn">let’s get started</a>
+                            </div> -->
                         </div>
                     </div>
                 </div>
