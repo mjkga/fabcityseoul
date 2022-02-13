@@ -7410,3 +7410,13 @@ ul {
   background-color: var(--thm-black);
   color: var(--thm-base);
 }
+
+.iframe-container {
+  /* position: absolute; */
+  /* margin: auto; */
+  position: relative;
+  top: 50%;
+  left: 20%;
+  /* margin-left: 20px; */
+  /* transform: translate(-50%, -50%); */
+}
